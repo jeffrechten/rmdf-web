@@ -29,10 +29,31 @@ export default function SiteLayout({ children }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const loc = useLocation();
 
+  const menuBtnRef = useRef(null);
+  const mobileMenuRef = useRef(null);
+
   // Close the menu when route/hash changes
   useEffect(() => {
     setMenuOpen(false);
   }, [loc.pathname, loc.hash]);
+
+  // Click-away handler (pointerdown works well on mobile)
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    function onPointerDown(e) {
+      const btn = menuBtnRef.current;
+      const menu = mobileMenuRef.current;
+
+      // If click is inside the button or the menu, do nothing
+      if ((btn && btn.contains(e.target)) || (menu && menu.contains(e.target))) return;
+
+      setMenuOpen(false);
+    }
+
+    document.addEventListener("pointerdown", onPointerDown);
+    return () => document.removeEventListener("pointerdown", onPointerDown);
+  }, [menuOpen]);
 
   return (
     <div className="page" id="top">
@@ -47,6 +68,7 @@ export default function SiteLayout({ children }) {
 
         <div className="navRight">
           <button
+            ref={menuBtnRef}
             className="menuBtn"
             type="button"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
@@ -65,7 +87,6 @@ export default function SiteLayout({ children }) {
             </svg>
           </button>
 
-          {/* Desktop/tablet nav pills */}
           <nav className="navLinks" aria-label="Primary">
             <NavLinkPill to="/">Home</NavLinkPill>
             <NavLinkPill to="/press">Press releases</NavLinkPill>
@@ -79,8 +100,13 @@ export default function SiteLayout({ children }) {
           </a>
         </div>
 
-        {/* Mobile menu dropdown */}
-        <div id="mobile-menu" className={`mobileMenu ${menuOpen ? "open" : ""}`} role="dialog" aria-modal="false">
+        <div
+          id="mobile-menu"
+          ref={mobileMenuRef}
+          className={`mobileMenu ${menuOpen ? "open" : ""}`}
+          role="dialog"
+          aria-modal="false"
+        >
           <div className="mobileMenuInner" aria-label="Mobile navigation">
             <NavLinkPill to="/" onClick={() => setMenuOpen(false)}>
               Home

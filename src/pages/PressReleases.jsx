@@ -69,7 +69,7 @@ export default function PressReleases() {
 
           <div className="tocCard" aria-label="Press releases table of contents">
             <div className="tocHeader">
-              <div className="tocTitle">Table of contents</div>
+              <div className="tocTitle">In this page</div>
               <a className="tocTopLink" href="#press-releases">
                 Jump to releases ↓
               </a>
