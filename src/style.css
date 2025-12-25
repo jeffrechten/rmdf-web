@@ -296,6 +296,7 @@ a:hover{ text-decoration:underline; }
   display:flex;
   align-items:center;
   gap:10px;
+  position: relative;
 }
 
 .navLinks{
@@ -303,6 +304,53 @@ a:hover{ text-decoration:underline; }
   gap:8px;
   flex-wrap:wrap;
   align-items:center;
+}
+
+.menuBtn{
+  display:none;
+  align-items:center;
+  justify-content:center;
+  width:40px;
+  height:40px;
+  border-radius:12px;
+  border:1px solid rgba(0,0,0,.12);
+  background:white;
+  box-shadow: 0 10px 22px rgba(0,0,0,.08);
+  color: var(--forest);
+}
+
+.menuBtn:hover{
+  background: rgba(255,255,255,.85);
+}
+
+.mobileMenu{
+  display:none;
+  position:absolute;
+  right:0;
+  top: calc(100% + 8px);
+  width: min(240px, 88vw);
+  border-radius:16px;
+  padding:12px;
+  background: rgba(255,255,255,.95);
+  border:1px solid rgba(0,0,0,.08);
+  box-shadow: 0 18px 40px rgba(0,0,0,.14);
+  z-index: 60;
+}
+
+.mobileMenu.open{
+  display:block;
+}
+
+.mobileMenuInner{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.mobileMenuDivider{
+  height:1px;
+  background: rgba(0,0,0,.08);
+  margin: 2px 0;
 }
 
 .navPill{
@@ -463,6 +511,7 @@ a:hover{ text-decoration:underline; }
   .pressTitle{ font-size: 34px; }
   .tocLink{ align-items: flex-start; flex-direction: column; }
   .tocLinkMeta{ white-space: normal; }
-  .navRight{ align-items: stretch; }
+  .menuBtn{ display:inline-flex; }
+  .navLinks{ display:none; }
+  .brandTag{ display:none; }
 }
-
