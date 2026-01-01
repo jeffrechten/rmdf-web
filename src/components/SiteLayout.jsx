@@ -133,15 +133,31 @@ export default function SiteLayout({ children }) {
         <div className="footerInner">
           <div className="footerTop">
             <div className="footerTitle">Rural Michigan Defense Fund (RMDF)</div>
-            <div className="footerLinks">
-              <a href={DONATE_URL} target="_blank" rel="noreferrer">
-                Donate
-              </a>
-              <Link to="/press">Press releases</Link>
-              <Link to="/#learn-more">About</Link>
-              <a href={LEARN_MORE_URL} target="_blank" rel="noreferrer">
-                Learn more
-              </a>
+            <div className="footerMeta">
+              <div className="footerLinks">
+                <a href={DONATE_URL} target="_blank" rel="noreferrer">
+                  Donate
+                </a>
+                <Link to="/press">Press releases</Link>
+                <Link to="/#learn-more">About</Link>
+                <a href={LEARN_MORE_URL} target="_blank" rel="noreferrer">
+                  Learn more
+                </a>
+              </div>
+              <div className="footerSocial" aria-label="Social links">
+                <a
+                  className="socialLink"
+                  href="https://www.facebook.com/ruralmidefense/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Rural Michigan Defense Fund on Facebook"
+                >
+                  <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                    <path d="M13.5 9.2V7.6c0-.7.5-1.1 1.3-1.1h1.9V3.2h-2.6c-2.8 0-4.1 1.6-4.1 4v2H7.6v3h2.4v8h3.5v-8h2.6l.4-3h-3z" />
+                  </svg>
+                  Facebook
+                </a>
+              </div>
             </div>
           </div>
 
