@@ -145,7 +145,6 @@ export default function SiteLayout({ children }) {
                 </a>
               </div>
               <div className="footerSocial" aria-label="Social links">
-                <span className="footerSocialLabel">Follow us</span>
                 <a
                   className="socialLink"
                   href="https://www.facebook.com/ruralmidefense/"
