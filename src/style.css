@@ -213,6 +213,13 @@ a:hover{ text-decoration:underline; }
   gap: 14px;
   flex-wrap: wrap;
 }
+.footerMeta{
+  display:flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
 .footerTitle{
   font-weight: 900;
   letter-spacing: .2px;
@@ -223,6 +230,9 @@ a:hover{ text-decoration:underline; }
   flex-wrap:wrap;
 }
 .footerLinks a{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 800;
   font-size: 13px;
   color: var(--forest);
@@ -235,6 +245,23 @@ a:hover{ text-decoration:underline; }
 .footerLinks a:hover{
   background: rgba(255,255,255,.75);
   text-decoration:none;
+}
+.footerSocial{
+  display:flex;
+  align-items: center;
+  gap: 8px;
+}
+.footerSocialLabel{
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+}
+.footerLinks svg{
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
 }
 .footerGrid{
   margin-top: 14px;
@@ -284,6 +311,7 @@ a:hover{ text-decoration:underline; }
   .grid3{ grid-template-columns: 1fr; }
   .grid2{ grid-template-columns: 1fr; }
   .split{ grid-template-columns: 1fr; }
+  .footerMeta{ justify-content: flex-start; }
   .footerGrid{ grid-template-columns: 1fr; }
   .hero h1{ font-size: 36px; }
   .heroArt{ min-height: 220px; }
