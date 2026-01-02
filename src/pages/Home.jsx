@@ -32,7 +32,7 @@ export default function Home() {
               <a className="btn btnPrimary btnLarge" href={DONATE_URL} target="_blank" rel="noreferrer">
                 Donate Now
               </a>
-              <a className="btn btnGhost btnLarge" href={LEARN_MORE_URL} target="_blank" rel="noreferrer">
+              <a className="btn btnGhost btnLarge" href={LEARN_MORE_URL} target="_blank" rel="noreferrer" aria-label="Learn more about stopping the Saline data center">
                 Learn more
               </a>
             </div>
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
 
           <div className="heroArt" aria-hidden>
-            <img className="heroImg" src={heroImg} alt="" />
+            <img className="heroImg" src={heroImg} alt="" fetchPriority="high" loading="eager" />
           </div>
         </section>
 
