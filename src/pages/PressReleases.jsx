@@ -10,7 +10,6 @@ const PRESS_RELEASES = [
       "Saline Township residents are facing a critical moment for transparent and accountable local government. Recent actions by the Township Board regarding the Related Digital Data Center property raise serious questions about compliance with a court order, the integrity of the zoning process, and the public’s right to rely on accurate, complete official notices.",
     location: "Saline Township, Mich.",
     body: [
-      "Saline Township residents are facing a critical moment for transparent and accountable local government. Recent actions by the Township Board regarding the Related Digital Data Center property raise serious questions about compliance with a court order, the integrity of the zoning process, and the public’s right to rely on accurate, complete official notices.",
       { heading: "Key Facts the Public Needs to Know" },
       [
         "A Consent Judgment issued by the Washtenaw County Circuit Court states that the data center property “shall be zoned I‑1.”",
