@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 import Home from "./pages/Home.jsx";
 import PressReleases from "./pages/PressReleases.jsx";
+import RedirectToDonate from "./components/RedirectToDonate.jsx";
 
 function ScrollToHash() {
   const { pathname, hash } = useLocation();
@@ -33,6 +34,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/press" element={<PressReleases />} />
+        <Route path="/donate" element={<RedirectToDonate />} />
       </Routes>
     </>
   );
