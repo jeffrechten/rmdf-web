@@ -210,7 +210,7 @@ export const PRESS_RELEASES = [
                 type: "p",
                 children: [
                     "The Zoning Board of Appeals is required to hold a public hearing within 90 days to hear and decide the appeal. Page 2 of one appellant, Preston Dyer Jr., lives next door to the site’s entrance. Another appellant, Kathryn Haushalter sued last weekend to overturn the consent judgment filed in Washtenaw County Circuit Court. The third appellant is Joshua Day LeBaron. The grounds for the appeal are described in a 16-page Notice of Appeal, available on ",
-                    { type: "a", href: "https://ruralmidefense.org/", text: "https://ruralmidefense.org/" },
+                    { type: "a", href: "https://ruralmidefense.org/docs/Redacted-ZBA-Notice-Appeal-Saline-Township-12.17.25.pdf", text: "ruralmidefense.org" },
                     "."
                 ]
             },
@@ -230,13 +230,16 @@ export const PRESS_RELEASES = [
                     " and ",
                     { type: "a", href: "https://ruralmidefense.org/", text: "https://ruralmidefense.org/" }
                 ]
+            },
+            {
+                type: "quote",
+                text: "Rural communities deserve a real chance to be heard and the resources to enforce the rules that protect them."
             }
         ],
         bullets: [
             "Residents file formal appeal",
             "Construction automatically halted"
-        ],
-        legacyQuote: undefined
+        ]
     },
     {
         id: "pr-2025-12-14",
@@ -301,7 +304,11 @@ export const PRESS_RELEASES = [
             },
             {
                 type: "p",
-                text: "Proposed Intervening Defendant (Haushalter)’s documents include:"
+                children: [
+                    "Proposed Intervening Defendant (Haushalter)’s ",
+                    { type: "a", href: "https://ruralmidefense.org/docs/proposed-intervening-filing.pdf", text: "documents" },
+                    " include:"
+                ]
             },
             {
                 type: "ul",
@@ -334,11 +341,3 @@ export const PRESS_RELEASES = [
     }
 ];
 
-// Append the final quote to the body for pr-2025-12-19
-const pr3 = PRESS_RELEASES.find(p => p.id === "pr-2025-12-19");
-if (pr3) {
-    pr3.body.push({
-        type: "quote",
-        text: "Rural communities deserve a real chance to be heard and the resources to enforce the rules that protect them."
-    });
-}

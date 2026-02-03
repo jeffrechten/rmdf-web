@@ -703,24 +703,7 @@ a:hover {
   color: var(--muted);
 }
 
-.pressBody p {
-  margin: 10px 0 0;
-  color: var(--muted);
-}
 
-.pressBody ul {
-  margin: 10px 0 0;
-  color: var(--muted);
-  padding-left: 18px;
-}
-
-.pressQuote {
-  margin-top: 12px;
-  border-radius: 18px;
-  padding: 16px;
-  background: rgba(47, 79, 62, .08);
-  border: 1px solid rgba(47, 79, 62, .15);
-}
 
 .pressFooterRow {
   margin-top: 12px;
@@ -831,6 +814,3 @@ a:hover {
   border-top: 1px solid rgba(0, 0, 0, .08);
   padding-top: 1em;
 }
-
-/* Legacy helpers strictly not used anymore, but kept just in case user reverts. 
-   We essentially overwrote the old quote blocks above. */
