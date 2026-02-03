@@ -3,6 +3,45 @@ import { CONTACT_EMAIL } from "../siteConfig";
 
 const PRESS_RELEASES = [
   {
+    id: "pr-2026-02-02",
+    date: "February 2, 2026",
+    title: "Saline Township residents pursue two legal actions related to proposed data center; court sets February 20 hearing on Motion to Intervene",
+    summary:
+      "Saline Township residents opposing the proposed data center project are now pursuing two active legal actions in Washtenaw County Circuit Court: (1) a new mandamus lawsuit filed January 28 seeking to compel the Township’s appeals process to proceed, and (2) a pending Motion to Intervene challenging the process surrounding the Consent Judgment entered between the Township and RD Michigan Property Owner 1 LLC.",
+    location: "Saline Township, Mich.",
+    body: [
+      { heading: "Key Legal Updates and Dates" },
+      "Motion to Intervene — hearing scheduled (Consent Judgment case)",
+      [
+        "Oral argument is set for February 20, 2026 at 10:00 a.m. before Honorable Judge Julia B. Owdziej.",
+        "Responses were filed January 28 by the Township and RD Michigan Property Owner 1 LLC. The issue at stake is whether Saline Township officials violated the Open Meetings Act by voting to settle a lawsuit with RD during a closed session, and subsequently signing a final Consent judgment without public deliberation or board approval.",
+        "Reply deadline: Saline Township resident Kathryn Haushalter has until February 11, 2026 to file reply briefs.",
+      ],
+      "Mandamus action — residents seek order requiring ZBA to hear appeal and recognize permit stay",
+      [
+        "On January 28, 2026, Township residents Tammie Bruneau, Preston Dyer, Joshua LeBaron, and Kathryn Haushalter filed a mandamus lawsuit seeking a court order compelling the Township’s Saline Township Zoning Board of Appeals to perform what residents describe as its clear legal duty: to accept, schedule, and hear a zoning appeal filed in December.",
+        "The appeal challenges a zoning permit issued December 4, authorizing preliminary construction activity and temporary structures. The lawsuit also asks the court to enforce Michigan law provisions that residents state stay (pause) permit effects while an appeal is pending.",
+        "Residents report that site activity has begun and are asking for prompt judicial intervention to ensure the appeals process proceeds as required.",
+      ],
+      { heading: "Dispute Over Rezoning Notice and “Map Notation” Approach" },
+      "Additionally, residents are challenging the Township’s handling of a January 14 vote concerning the zoning status of the data center parcels. After any voting by the Board on rezoning, the Township Clerk is required by law to publish notice and formally update the Official Zoning Map. The residents allege that the Township Clerk’s published notice was incomplete as it did not include the Board’s action regarding the parcels of land to be rezoned for the data center development, and that this omission undermined residents’ ability to evaluate and exercise potential referendum rights under Michigan law.",
+      "At a special meeting last week, the Township Board voted to rescind its earlier action regarding the data center parcels and instead discussed making a “notation” on the zoning map while keeping parcels labeled A-1 agricultural, rather than the I-1 zoning RD sued the Township over. Residents contend that zoning changes must be made through the legally required ordinance process and public notice, rather than through informal map markings, and warn that the Township’s approach risks deepening procedural confusion and legal exposure.",
+      "“They’re snapping their position back, retreating from their earlier insistence that the I‑1 zoning must happen and are now saying the Clerk can just make a notation on a map.” said Kathryn Haushalter.",
+      "“That’s not going to work,” said Tammie Bruneau from Rural Michigan Defense Fund “because a rezoning is an amendment to the Zoning Ordinance which by law, the legislative body must vote on, and the people of a township have the right to refer that law. Now their far-fetched idea is they can simply use a sharpie on the Zoning Map.”",
+      "The ZBA appeal brought the zoning map issue into sharp focus. The appeal argues that if the Consent Judgment is valid (a point the appellants dispute), then the Township must take the steps required to ensure the Official Zoning Map reflects the property’s zoning status as the Township sought in the Consent Judgment.",
+      "After the appeal was filed, Township counsel, David Landry, communicated to the appellants that the Township’s position is that the Zoning Board of Appeals will not hear the appeal.",
+      "“It appears these Township lawyers are actually making decisions for these elected and appointed officials, and they just don’t have that power,” said Jeff Rechten.",
+      { heading: "Why This Matters" },
+      "Residents say these legal actions are about process, transparency, and accountability, particularly when major industrial development is proposed on farmland in a rural community. They argue that the Township’s decisions must comply with court orders and state law, and that the public must be able to rely on complete and accurate official notices.",
+      { heading: "Putting a stake in the heart of the Consent Judgment" },
+      "While the ZBA route is to force a map change, the resident’s Motion to Intervene is to open up the consent judgment, because of the Township’s faulty approval process, and argue the zoning arguments that the Township never made.",
+      "Community supporters have rallied behind the effort, forming two organizations, Stop the Saline Data Center and nonprofit Rural Michigan Defense Fund which will be collecting donations to support the litigation. To learn more, see ruralmidefense.org",
+      { heading: "About RMDF and How to Learn More" },
+      "Community supporters have formed Stop the Saline Data Center and the Rural Michigan Defense Fund to support lawful civic engagement and litigation related to the proposed data center. To learn more, including how to access case documents and updates, visit https://ruralmidefense.org. Visit https://ruralmidefense.org/donate to support the litigation.",
+      "CONTACT: Rural Michigan Defense Fund — info@ruralmidefense.org | 734-821-3832",
+    ]
+  },
+  {
     id: "pr-2026-01-27",
     date: "January 27, 2026",
     title: "URGENT: Saline Township Data Center Zoning Reversal Raises Legal and Governance Concerns",
