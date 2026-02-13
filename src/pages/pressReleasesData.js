@@ -1,5 +1,104 @@
 export const PRESS_RELEASES = [
     {
+        id: "pr-2026-02-13",
+        dateLabel: "February 13, 2026",
+        dateISO: "2026-02-13",
+        title: "Resident’s reply briefs reveal Saline Township ordinance prohibited “conditional rezoning” for data center; ask court to allow Haushalter into case so she can set aside consent judgment",
+        summary: "In reply briefs filed February 11, 2026, in Washtenaw County Circuit Court, Saline Township resident Kathryn Haushalter responds to opposition briefs from Saline Township and RD Michigan Property Owner 1 LLC (the entity tied to the proposed Related Digital hyperscale data center project). The filings present evidence from the Township’s files that the Township’s adopted zoning ordinance prohibits conditional rezoning and contend that the Consent Judgment should be set aside due to ordinance and Open Meetings Act violations.",
+        location: "Saline Township, Mich.",
+        body: [
+            { type: "h3", text: "Key legal arguments in the February 11 filings" },
+            {
+                type: "ul",
+                items: [
+                    "Because Saline Township’s zoning ordinance prohibits conditional rezoning and requires that any rezoning application containing proposed conditions be returned without Township review or consideration, the Township did not have the authority to consider RD’s data center proposal at all.",
+                    "The Consent Judgment effectively authorized a form of conditional rezoning that is barred by the adopted Saline Township zoning ordinance, and the Township Board did not take a public vote to approve the final Consent Judgment language or to authorize officials to execute it, and therefore violated the Open Meetings Act and Township authorization practice.",
+                    "The filings ask the Court to grant Haushalter’s motion to intervene so that she can bring a motion to vacate (set aside) the judgment if intervention is granted."
+                ]
+            },
+            { type: "h3", text: "Ordinance provision cited" },
+            { type: "p", text: "Haushalter’s filings cite Saline Township Zoning Ordinance Section 12.04(A), which states:" },
+            {
+                type: "quote",
+                text: "Conditional rezoning, as authorized by Section 405 of the Michigan Zoning Enabling Act, shall be prohibited in Saline Township. Any application for a rezoning amendment to the Official Zoning Map that includes proposed conditions or voluntary use, or development limitations shall be returned to the applicant without Township review or consideration."
+            },
+            { type: "h3", text: "Evidence presented about the 2025 application process" },
+            {
+                type: "p",
+                text: "Haushalter presents evidence in a sworn affidavit by her research team that the data center application submitted in July 2025 was processed by the Township Planner Mike Auerbach as a “conditional rezoning” despite the ordinance’s prohibition. Based on Township meeting minutes posted on the Township’s website and other documents provided by the Township through Freedom of Information Act requests, the affidavit states that the “Conditional Rezoning Prohibited” section of the Township ordinance was never changed, and that Township decision-makers relied on language not contained in the adopted zoning ordinance, but rather an older draft discussed years earlier but never enacted."
+            },
+            { type: "h3", text: "No township authorization and the Open Meetings Act" },
+            {
+                type: "p",
+                text: "In Haushalter’s reply to Saline Township, she argued:"
+            },
+            {
+                type: "ul",
+                items: [
+                    "Official Board minutes cannot be overridden by after-the-fact explanations, and the record reflects a vote to negotiate rather than a final vote to approve execution of the Consent Judgment.",
+                    "Prior Township consent-judgment minutes provided in exhibits show explicit votes authorizing signature of final documents when Saline Township settled previous cases in 2007 and 2023, which did not occur in 2025.",
+                    "The filings dispute mootness arguments and contend that ongoing site work does not automatically eliminate the Court’s ability to grant relief, citing Michigan appellate precedent."
+                ]
+            },
+            { type: "h3", text: "Additional matters referenced in exhibits" },
+            {
+                type: "ul",
+                items: [
+                    "Exhibit 1 (Bates pages 048–051) shows RD Michigan Property Owner 1 LLC’s filings with Michigan’s Department of Licensing and Regulatory Affairs on August 25, 2025. The exhibit indicates the limited liability company registered in Delaware and should not have been eligible to conduct business in Michigan until August 25, 2025. Yet RD applied for “conditional rezoning” of property it did not yet own for the data center on July 10, 2025."
+                ]
+            },
+            { type: "h3", text: "Community reactions" },
+            {
+                type: "quote",
+                text: "It seems all of these people, the Township Planner, the planning commissioners, board members, attorneys, all ignored the one section in the entire Zoning Ordinance that mattered—‘conditional rezoning prohibited’—and instead kept everyone thinking that this was allowed in Saline Township. Residents deserve a clear public explanation of how this happened,",
+                by: "Tammie Bruneau"
+            },
+            {
+                type: "quote",
+                text: "Under the Saline Zoning Ordinance, RD should not have been allowed to apply for a conditional rezoning, full stop. I’m glad I am able to bring these facts to the Court’s attention. I would also like to see an investigation into what happened here, whether this was somehow a mistake or something intentional,",
+                by: "Kathryn Haushalter"
+            },
+            { type: "h3", text: "Next court date" },
+            {
+                type: "p",
+                text: "The Court is scheduled to hear oral argument on Haushalter’s Motion to Intervene on:"
+            },
+            {
+                type: "ul",
+                items: [
+                    "February 20, 2026 at 10:00 a.m. EST before Judge Julia B. Owdziej",
+                    "Civil Action Case No.: 25-001577-CZ (Washtenaw County Trial Court)",
+                    "Location: 101 E. Huron Street, Ann Arbor, MI 48104"
+                ]
+            },
+            { type: "h3", text: "About RMDF and how to learn more" },
+            {
+                type: "p",
+                children: [
+                    "Community supporters have formed the Rural Michigan Defense Fund to support lawful civic engagement and litigation related to the proposed data center. Case updates can be found at ",
+                    { type: "a", href: "https://www.ruralmidefense.org/press", text: "www.ruralmidefense.org/press" },
+                    " and documents are posted at ",
+                    { type: "a", href: "https://www.ruralmidefense.org/legal", text: "www.ruralmidefense.org/legal" },
+                    ". Support the litigation at ",
+                    { type: "a", href: "https://www.ruralmidefense.org/donate", text: "www.ruralmidefense.org/donate" },
+                    "."
+                ]
+            },
+            {
+                type: "contact",
+                children: [
+                    "Media contact: Rural Michigan Defense Fund (RMDF) — ",
+                    { type: "a", href: "mailto:info@ruralmidefense.org", text: "info@ruralmidefense.org" },
+                    " | ",
+                    { type: "a", href: "https://ruralmidefense.org", text: "ruralmidefense.org" },
+                    " | 734-821-3832. Legal counsel (for Haushalter): Robby Dube — ",
+                    { type: "a", href: "mailto:rdube@ecklandblando.com", text: "rdube@ecklandblando.com" },
+                    " | 612-236-0175"
+                ]
+            }
+        ]
+    },
+    {
         id: "pr-2026-02-02",
         dateLabel: "February 2, 2026",
         dateISO: "2026-02-02",
