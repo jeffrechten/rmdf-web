@@ -139,6 +139,7 @@ export default function SiteLayout({ children }) {
                   Donate
                 </a>
                 <Link to="/press">Press releases</Link>
+                <Link to="/legal">Legal</Link>
                 <Link to="/#learn-more">About</Link>
                 <a href={LEARN_MORE_URL} target="_blank" rel="noreferrer">
                   Learn more
