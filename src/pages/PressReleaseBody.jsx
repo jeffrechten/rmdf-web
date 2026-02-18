@@ -24,6 +24,12 @@ export default function PressReleaseBody({ body }) {
                     </a>
                 );
             }
+            if (child.type === "br") {
+                return <br key={i} />;
+            }
+            if (child.type === "strong" || child.type === "b") {
+                return <strong key={i}>{child.text}</strong>;
+            }
             return null;
         });
     };
