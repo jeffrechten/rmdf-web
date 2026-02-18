@@ -1,5 +1,143 @@
 export const PRESS_RELEASES = [
     {
+        id: "ma-2026-02-18",
+        dateLabel: "February 18, 2026",
+        dateISO: "2026-02-18",
+        title: "MEDIA ALERT: Saline Township Resident, Kathryn Haushalter Confirms Legal Hearing on Friday, February 20",
+        summary: "Washtenaw County Circuit Court hearing scheduled for February 20 at 10:00 am EST to hear argument on Motion to Intervene regarding Open Meetings Act violations and zoning disputes.",
+        location: "Saline Township, Mich.",
+        body: [
+            {
+                type: "p",
+                children: [
+                    { type: "strong", text: "MEDIA ALERT – For Immediate Release" },
+                    { type: "br" },
+                    { type: "strong", text: "DATE: February 18, 2026" }
+                ]
+            },
+            {
+                type: "contact",
+                children: [
+                    { type: "strong", text: "MEDIA CONTACT:" },
+                    " Rural Michigan Defense Fund (RMDF) — ",
+                    { type: "a", href: "mailto:info@ruralmidefense.org", text: "info@ruralmidefense.org" },
+                    " | ",
+                    { type: "a", href: "https://ruralmidefense.org", text: "ruralmidefense.org" },
+                    " | 734-821-3832",
+                    { type: "br" },
+                    { type: "strong", text: "LEGAL COUNSEL (for Haushalter):" },
+                    " Robby Dube — ",
+                    { type: "a", href: "mailto:rdube@ecklandblando.com", text: "rdube@ecklandblando.com" },
+                    " | 612-236-0175"
+                ]
+            },
+            { type: "h3", text: "Saline Township Resident, Kathryn Haushalter Confirms Legal Hearing on Friday, February 20" },
+            {
+                type: "p",
+                text: "The Rural Michigan Defense Fund (RMDF) has confirmed that a Washtenaw County Circuit Court hearing is scheduled for February 20 at 10:00 am EST to hear oral argument on Saline Township resident Kathryn Haushalter’s Motion to Intervene in the Lawsuit between Saline Township and RD Michigan Property Owner 1 LLC (tied to the proposed Related Digital hyperscale data center). Haushalter is seeking to intervene, asserting (1) that Township officials violated the Open Meetings Act by voting to settle a lawsuit with RD during a closed session, and subsequently signing a final Consent Judgment without public deliberation or board approval, and (2) that as a nearby landowner she has the right to intervene in the underlying zoning dispute."
+            },
+            {
+                type: "p",
+                text: "Her filings emphasize that the Township’s adopted zoning ordinance prohibits conditional rezoning and requires applications containing conditions to be returned without review, meaning the Township lacked legal authority to even consider RD’s proposal. The Consent Judgment, she argues, unlawfully enabled a form of conditional rezoning to advance the hyperscale data center."
+            },
+            {
+                type: "p",
+                text: "Haushalter argues these zoning and Open Meetings Act violations render the Consent Judgment void, and intervention is necessary so she can move to vacate it."
+            },
+            {
+                type: "p",
+                text: "A press conference will be held following the hearing. Press conference details are listed below."
+            },
+            { type: "h3", text: "February 20 Circuit Court Hearing" },
+            {
+                type: "p",
+                children: [
+                    { type: "strong", text: "Time:" }, " Feb 20, 2026, 10:00 AM EST",
+                    { type: "br" },
+                    "Civil Action Case No. 25-001577-CZ",
+                    { type: "br" },
+                    "Honorable Judge Julia B. Owdziej"
+                ]
+            },
+            {
+                type: "p",
+                children: [
+                    { type: "strong", text: "Link to join:" }, " ",
+                    { type: "a", href: "https://us02web.zoom.us/j/7433778758", text: "https://us02web.zoom.us/j/7433778758" },
+                    { type: "br" },
+                    { type: "strong", text: "Meeting ID:" }, " 743 377 8758"
+                ]
+            },
+            {
+                type: "p",
+                text: "Attained in person at: Washtenaw County Circuit Court, 101 E. Huron Street, Ann Arbor"
+            },
+            { type: "h3", text: "February 20 Press Conference" },
+            {
+                type: "p",
+                text: "Kathryn Haushalter and her legal team will hold a press conference via Zoom at 11:00 AM Eastern time (or shortly after the hearing has concluded) and can be accessed through the link below:"
+            },
+            {
+                type: "p",
+                children: [
+                    { type: "strong", text: "Link to join:" }, " ",
+                    { type: "a", href: "https://us02web.zoom.us/j/85963794102?pwd=iXbHk6U4mWlagXb4laJR6iI65nBNa1.1", text: "https://us02web.zoom.us/j/85963794102?pwd=iXbHk6U4mWlagXb4laJR6iI65nBNa1.1" },
+                    { type: "br" },
+                    { type: "strong", text: "Meeting ID:" }, " 859 6379 4102",
+                    { type: "br" },
+                    { type: "strong", text: "Passcode:" }, " 121854"
+                ]
+            },
+            {
+                type: "p",
+                children: [
+                    "Join instructions:",
+                    { type: "br" },
+                    { type: "a", href: "https://us02web.zoom.us/meetings/85963794102/invitations?signature=6qnXtYHyEJ_nVnbnDXs_vV7ZqdqzIIqHyqA_VGPYA7Q", text: "https://us02web.zoom.us/meetings/85963794102/invitations?signature=6qnXtYHyEJ_nVnbnDXs_vV7ZqdqzIIqHyqA_VGPYA7Q" }
+                ]
+            },
+            { type: "h3", text: "About RMDF and How to Learn More" },
+            {
+                type: "p",
+                children: [
+                    "Community supporters have formed the Rural Michigan Defense Fund to support lawful civic engagement and litigation related to the proposed data center. Case updates and documents are posted at ",
+                    { type: "a", href: "https://ruralmidefense.org", text: "ruralmidefense.org" },
+                    "."
+                ]
+            },
+            {
+                type: "p",
+                children: [
+                    "Donations can be made online at ",
+                    { type: "a", href: "https://ruralmidefense.org/donate", text: "ruralmidefense.org/donate" },
+                    "."
+                ]
+            },
+            {
+                type: "p",
+                children: [
+                    "Or by mailing a check to:",
+                    { type: "br" },
+                    "RMDF",
+                    { type: "br" },
+                    "108 N. Maple Rd, #122",
+                    { type: "br" },
+                    "Saline, MI 48176"
+                ]
+            },
+            {
+                type: "contact",
+                children: [
+                    { type: "strong", text: "MEDIA CONTACT:" },
+                    " RMDF — ",
+                    { type: "a", href: "mailto:info@ruralmidefense.org", text: "info@ruralmidefense.org" },
+                    " | 734-821-3832"
+                ]
+            }
+        ]
+    },
+
+    {
         id: "pr-2026-02-13",
         dateLabel: "February 13, 2026",
         dateISO: "2026-02-13",
