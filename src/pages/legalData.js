@@ -2,6 +2,12 @@
 
 export const LEGAL_DOCUMENTS = [
     {
+        id: "reconsideration-combined",
+        title: "Reconsideration Combined",
+        fileName: "Reconsideration_combined.pdf",
+        date: "2026-03-29",
+    },
+    {
         id: "zba-mandamus-action",
         title: "ZBA Complaint for Mandamus",
         fileName: "ZBA-Mandamusaction-complaint.pdf",
