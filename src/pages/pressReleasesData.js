@@ -1,5 +1,110 @@
 export const PRESS_RELEASES = [
     {
+        id: "pr-2026-03-30",
+        dateLabel: "March 30, 2026",
+        dateISO: "2026-03-30",
+        title: "Saline Township resident asks Washtenaw County Circuit Court to reconsider denial of intervention in Saline Data Center case",
+        summary: "Saline Township resident Kathryn Haushalter has filed a Motion for Reconsideration and supporting brief in Washtenaw County Circuit Court, requesting that the Court reconsider its prior decision denying her Motion to Intervene in the lawsuit involving Saline Township and data center project entities.",
+        location: "Saline Township, Mich.",
+        body: [
+            {
+                type: "p",
+                children: [
+                    { type: "strong", text: "MEDIA ALERT – For Immediate Release" },
+                    { type: "br" },
+                    { type: "strong", text: "DATE: March 30, 2026" }
+                ]
+            },
+            {
+                type: "contact",
+                children: [
+                    { type: "strong", text: "MEDIA CONTACT:" },
+                    " Rural Michigan Defense Fund (RMDF), ",
+                    { type: "a", href: "mailto:info@ruralmidefense.org", text: "info@ruralmidefense.org" },
+                    ", ",
+                    { type: "a", href: "https://ruralmidefense.org", text: "ruralmidefense.org" },
+                    ", 734-821-3832",
+                    { type: "br" },
+                    { type: "strong", text: "LEGAL COUNSEL:" },
+                    " Robby Dube, ",
+                    { type: "a", href: "mailto:rdube@ecklandblando.com", text: "rdube@ecklandblando.com" },
+                    ", 612-236-0175",
+                    { type: "br" },
+                    { type: "strong", text: "LEGAL DOCUMENTS:" },
+                    " ",
+                    { type: "a", href: "https://ruralmidefense.org/legal", text: "ruralmidefense.org/legal" }
+                ]
+            },
+            { type: "h3", text: "Saline Township resident asks Washtenaw County Circuit Court to reconsider denial of intervention in Saline Data Center case" },
+            {
+                type: "p",
+                text: "Saline Township, Mich. — Saline Township resident Kathryn Haushalter has filed a Motion for Reconsideration and supporting brief in Washtenaw County Circuit Court, requesting that the Court reconsider its prior decision denying her Motion to Intervene in the lawsuit involving Saline Township and data center project entities."
+            },
+            {
+                type: "p",
+                text: "A motion for reconsideration is a procedural request that asks a court to correct a “palpable error” and reach a different result. In this filing, Haushalter argues that the Court’s denial of intervention rests on three errors and asks the Court to reconsider its February 20, 2026 bench ruling and March 7, 2026 order, and to grant intervention."
+            },
+            { type: "h3", text: "Key Points from the Motion for Reconsideration" },
+            {
+                type: "p",
+                text: "According to the Motion and brief, Haushalter asserts:"
+            },
+            {
+                type: "p",
+                text: "Haushalter moves the Court to reconsider its order under MCR 2.119(F)(1) as it is founded on three palpable errors: First, the Court erred in concluding that Haushalter could not intervene because the case was closed, a rule that, if correct, would nullify intervention motions as a matter of law whenever a judgment is entered, contrary to Michigan precedent that expressly permits post-judgment interventions to protect substantial rights and avoid collateral attacks. Second, after determining that Haushalter had standing to intervene as a defendant, the Court improperly proceeded to weigh the merits of her Open Meetings Act (“OMA”) claim rather than stopping the analysis as required under MCR 2.209 once the criteria for intervention were satisfied. Third, the Court erroneously found Haushalter’s claims time-barred despite statutory authority allowing her at least 60 days to bring her Motion. Correcting these errors must result in an alternative disposition of Haushalter’s Motion to Intervene. As such, Haushalter respectfully requests this court reconsider its February 20, 2026, bench ruling and March 7, 2026, Order for the same, correct the three palpable errors, and grant her Motion to Intervene as a cross-claimant, defendant, or both."
+            },
+            { type: "h3", text: "Additional Factual Points Cited in the Filing" },
+            {
+                type: "p",
+                text: "The brief further argues that the consent judgment discussed by the Saline Township Board of Trustees on October 1, 2025 was not a finalized agreement at that time. Haushalter’s filing references supporting materials such as the invoice from the township’s attorney, David Landry’s, showing additional work was done to finalize the consent judgment after October 1. No additional Township meeting or vote occurred to authorize the final version. The filing also references a transcript prepared from a Township video exhibit, which the filing argues supports the claim that final agreement terms were not complete at the conclusion of the October 1 meeting."
+            },
+            { type: "h3", text: "Documents Available" },
+            {
+                type: "p",
+                text: "Proposed Intervening Defendant (Haushalter)’s documents include:"
+            },
+            {
+                type: "ul",
+                items: [
+                    "Motion for Reconsideration",
+                    "Brief in Support of Motion for Reconsideration",
+                    "Declaration with attached invoice by David Landry"
+                ]
+            },
+            {
+                type: "p",
+                children: [
+                    "Saline Township’s website has posted the Consent Judgment, and Related Digital’s lawsuit and original rezoning application materials at ",
+                    { type: "a", href: "https://salinetownship.org", text: "salinetownship.org" },
+                    "."
+                ]
+            },
+            { type: "h3", text: "About RMDF and How to Learn More" },
+            {
+                type: "p",
+                text: "Community supporters have formed Stop the Saline Data Center and the Rural Michigan Defense Fund to support lawful civic engagement and litigation related to the proposed data center."
+            },
+            {
+                type: "ul",
+                items: [
+                    [ "Learn more: ", { type: "a", href: "https://ruralmidefense.org", text: "ruralmidefense.org" } ],
+                    [ "Legal documents: ", { type: "a", href: "https://ruralmidefense.org/legal", text: "ruralmidefense.org/legal" } ],
+                    [ "Support the legal effort: ", { type: "a", href: "https://ruralmidefense.org/donate", text: "ruralmidefense.org/donate" } ]
+                ]
+            },
+            {
+                type: "contact",
+                children: [
+                    { type: "strong", text: "MEDIA CONTACT:" },
+                    " RMDF — ",
+                    { type: "a", href: "mailto:info@ruralmidefense.org", text: "info@ruralmidefense.org" },
+                    ", 734-821-3832"
+                ]
+            }
+        ]
+    },
+
+    {
         id: "ma-2026-02-18",
         dateLabel: "February 18, 2026",
         dateISO: "2026-02-18",

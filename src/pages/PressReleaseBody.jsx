@@ -60,9 +60,7 @@ export default function PressReleaseBody({ body }) {
                         return (
                             <ul key={idx} className="pressList">
                                 {block.items.map((item, i) => {
-                                    // If list items ever become rich text, we can handle it here too.
-                                    // For now assuming strings as per spec, but could use renderRichText if items became objects.
-                                    return <li key={`${idx}-${i}`}>{item}</li>;
+                                    return <li key={`${idx}-${i}`}>{renderRichText(item)}</li>;
                                 })}
                             </ul>
                         );
